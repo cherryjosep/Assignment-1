@@ -1,3 +1,9 @@
+/*
+  Document   : index.php
+  Created on : feb 23/ 2014,
+  Author     : Cherry Jose
+  Description: Home Page
+ */
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -52,7 +58,7 @@
                                 <li class="divider-vertical"></li>
                                 <li><a href="services.php"><i class="icon-gift icon-white"></i>Services</a></li>
                                 <li class="divider-vertical"></li>
-                                <li><a href="git.php"><i class="icon-plane icon-white"></i>GitHub</a></li>
+                                <li><a href="https://github.com/cherryjosep/Assignment-1"><i class="icon-plane icon-white"></i>GitHub</a></li>
                                 <li class="divider-vertical"></li>
                                 <li><a href="contactme.php"><i class="icon-share icon-white"></i>Contact Me</a></li>
                                 <li class="divider-vertical"></li>

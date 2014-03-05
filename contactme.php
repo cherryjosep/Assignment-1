@@ -1,56 +1,66 @@
+/*
+Document   : Contactme.php
+Created on : Mar 1/ 2014,
+Author     : Cherry Jose
+Description: Contact me
+
+*/
+
 
 <?php
 session_start();
-?>
+?>                          <!-- Including the php file -->
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Cherry Jose</title>
-
-<link href="include/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <title>Cherry Jose</title>  <!-- Title of Page -->
+        
+        <!-- Style Sheet for the website inlcuding Bootstrap Frame Work !-->
+        <link href="include/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="include/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
-       
         <link href="include/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-    </head>
-    <body>
-       <div class="navbar navbar-inverse ">
-    <div class="navbar-inner">
-        <div class="container-fluid">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">CJ Productions</a>
-            <div class="nav-collapse in collapse" style="height: auto;">
-                <div class="pull-right">
-                <ul class="nav">
-                    <li class="divider-vertical"></li>
-                    <li><a href="index.php"><i class="icon-home icon-white"></i>Home</a></li>
-                    <li class="divider-vertical"></li>
-                    <li><a href="aboutme.php"><i class="icon-leaf icon-white"></i>About Me</a></li>
-                    <li class="divider-vertical"></li>
-                    <li><a href="projects.php"><i class=" icon-fire icon-white"></i>Projects</a></li>
-                    <li class="divider-vertical"></li>
-                    <li><a href="services.php"><i class="icon-gift icon-white"></i>Services</a></li>
-                    <li class="divider-vertical"></li>
-                     <li><a href="git.php"><i class="icon-plane icon-white"></i>GitHub</a></li>
-                    <li class="divider-vertical"></li>
-                     <li  class="active"><a href="contactme.php"><i class="icon-share icon-white"></i>Contact Me</a></li>
-                    <li class="divider-vertical"></li>
-                                         
+    
+    </head>         <!-- End of Head --> 
+   
+    <body>                                  <!-- Body of the page -->
+        <div class="navbar navbar-inverse ">     <!-- Menu -->
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#">CJ Productions</a>
+                    <div class="nav-collapse in collapse" style="height: auto;">
+                        <div class="pull-right">
+                            <ul class="nav">
+                                <li class="divider-vertical"></li>
+                                <li><a href="index.php"><i class="icon-home icon-white"></i>Home</a></li>
+                                <li class="divider-vertical"></li>
+                                <li><a href="aboutme.php"><i class="icon-leaf icon-white"></i>About Me</a></li>
+                                <li class="divider-vertical"></li>
+                                <li><a href="projects.php"><i class=" icon-fire icon-white"></i>Projects</a></li>
+                                <li class="divider-vertical"></li>
+                                <li><a href="services.php"><i class="icon-gift icon-white"></i>Services</a></li>
+                                <li class="divider-vertical"></li>
+                                <li><a href="https://github.com/cherryjosep/Assignment-1"><i class="icon-plane icon-white"></i>GitHub</a></li>
+                                <li class="divider-vertical"></li>
+                                <li  class="active"><a href="contactme.php"><i class="icon-share icon-white"></i>Contact Me</a></li>
+                                <li class="divider-vertical"></li>
 
-                </ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
 
-</div>
+        </div>                               <!-- End of Menu -->
 
 
-        <div class="container">
+        <div class="container">              <!--  Container class with Contact me Form !-->
             <div class="row">
                 <div class="hero-unit">
                     <h1>Let's Keep In Touch!</h1>
@@ -117,8 +127,8 @@ session_start();
                     </div><!--end well -->
                 </section><!--end right --> 
             </div><!--end row -->
-
-               <?php if (isset($_SESSION['status'])) { ?>
+                                                             <!--  Php Code for the displaying the message !-->
+            <?php if (isset($_SESSION['status'])) { ?>          
                 <div class="alert alert-block fade in navbar-fixed-top span5 offset4 pull-right">
                     <button type="button" class="close" data-dismiss="alert">×</button>
                     <p> <?php
@@ -127,20 +137,17 @@ session_start();
                 ?></p>
                 </div>
             <?php } ?>
-           
+
         </div>
         <?php include 'include/footer.php'; ?>
         <!-- /container -->
 
-        <!-- Le javascript
+        <!-- javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="jquery.js"></script>
+       
         <script src="bootstrap.min.js"></script>
 
-        <script type="text/javascript">
-            $('.carousel').carousel()
-        </script>
-
-    </body>
-</html>
+      
+    </body>      <!--  Ends the Body !-->
+</html>              <!--  Ends the Html !-->

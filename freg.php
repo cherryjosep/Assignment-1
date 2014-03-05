@@ -1,3 +1,10 @@
+/*
+  Document   : freg.php
+  Created on : Mar 1/ 2014,
+  Author     : Cherry Jose
+  Description: Form for contact me
+  
+ */
 <?php
 
 session_start();

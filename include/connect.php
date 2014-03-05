@@ -1,3 +1,11 @@
+/*
+  Document   : Connect.php
+  Created on : Mar 1/ 2014,
+  Author     : Cherry Jose
+  Description: Connect 
+  
+ */
+
 <?php
 include 'constants.php';
    
