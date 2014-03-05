@@ -1,10 +1,10 @@
-/*
+<?php/*
   Document   : aboutme.php
   Created on : feb 25/ 2014,
   Author     : Cherry Jose
   Description: About me
   
- */
+ */?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

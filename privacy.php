@@ -1,10 +1,10 @@
-/*
+<?php/*
 Document   : Privacy.php
 Created on : Mar 1 / 2014,
 Author     : Cherry Jose
 Description: Privacy Page
 
-*/
+*/?>
 
 <!DOCTYPE html>
 <html lang="en">

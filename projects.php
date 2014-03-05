@@ -1,10 +1,10 @@
-/*
+<?php/*
   Document   : projects.php
   Created on : feb 27/ 2014,
   Author     : Cherry Jose
   Description: Projects Page
   
- */
+ */?>
 <!DOCTYPE html>
 <html lang="en">
     <head>

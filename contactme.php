@@ -1,3 +1,4 @@
+<?php
 /*
 Document   : Contactme.php
 Created on : Mar 1/ 2014,
@@ -5,12 +6,11 @@ Author     : Cherry Jose
 Description: Contact me
 
 */
-
-
-<?php
 session_start();
-?>                          <!-- Including the php file -->
+?>
+<!-- Including the php file -->
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -145,7 +145,7 @@ session_start();
         <!-- javascript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
-       
+       <script src="jquery.js"></script>
         <script src="bootstrap.min.js"></script>
 
       

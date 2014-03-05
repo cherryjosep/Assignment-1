@@ -1,11 +1,11 @@
-/*
+<?php/*
 Document   : Footer.php
 Created on : Mar 2/ 2014,
 Author     : Cherry Jose
 Description: Footer Page
 
 */
-
+?>
 <footer class="row-fluid ">     <!-- Footer div !-->
     <div class="span5">
 

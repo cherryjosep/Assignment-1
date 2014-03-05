@@ -1,10 +1,10 @@
-/*
+<?php/*
 Document   : Terms.php
 Created on : Mar 1 / 2014,
 Author     : Cherry Jose
 Description: Terms and Condition Page
 
-*/
+*/?>
 
 <!DOCTYPE html>
 <html lang="en">

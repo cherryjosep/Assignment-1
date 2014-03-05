@@ -1,9 +1,9 @@
-/*
+<?php/*
   Document   : index.php
   Created on : feb 23/ 2014,
   Author     : Cherry Jose
   Description: Home Page
- */
+ */?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
