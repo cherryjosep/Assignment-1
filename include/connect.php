@@ -1,3 +1,4 @@
+<?php
 /*
   Document   : Connect.php
   Created on : Mar 1/ 2014,
@@ -5,8 +6,6 @@
   Description: Connect 
   
  */
-
-<?php
 include 'constants.php';
    
     $con = mysql_connect($DBADD,$DBUNAME,$DBPASS);

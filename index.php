@@ -77,7 +77,7 @@
         <div class="container-fluid ">          <!--  Container class  !-->
             <div class="row-fluid hero-unit">   <!--  Row Fluid Class !-->
                 <div class="span4">             <!--  The Logo div !-->
-                    <img src="images/l.png"/>
+                    <img src="images/logos.png"/>
                 </div>
                 <div class="span8">             <!--  Welcome and Personal Tagline Div  !-->
                     <legend>
